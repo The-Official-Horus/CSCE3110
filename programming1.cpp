@@ -53,9 +53,9 @@ void merge(float arr[], int L, int H, int midIndex)
     }
   
 // Move remaining elements
-    for (int ind = L ; ind <= H ; ind++)
+    for (int ind = L ; ind <= H ; ind++) {
         arr[ind] = newarr[ind];
-
+    }
 }
 // Function mergesort
 void mergeSort(float arr[], int L, int H)
